@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pokéfont';
+    src: url('../font/Pokemon\ Solid.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+:root {
+    --cor01: black;
+    --cor02: white;
+    --fontpokemon: 'Pokéfont', Arial, Helvetica, sans-serif;
+}
+
+/*Top*/
+header {
+    background-color: var(--cor02);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+header > h1 {
+    font-family: var(--fontpokemon);
+    text-align: center;
+    font-weight: 500;
+    color: var(--cor01);
+}
+
+header > menu {
+    display: block;
+    margin: auto;
+    width: 287px;
+}
+
+header menu > a, header menu > p {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--cor01);
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0px 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.485);
+    transition: 1s;
+}
+
+header menu > a:hover, header menu > p:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.485);
+    transform: translateY(-5px);
+}
+/*Top*/
+
+/*Center*/
+/*  
+    (.gens = sections)
+    (.gens .type-.....-div = sections div)
+    (....-fire-... = id = especificando tipo do pokémon, para mudar cor da borda e margin)   
+*/
+main {
+    background-color: var(--cor02);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+main  h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 15px 0px;
+}
+
+main > .gens {
+    display: inline-block;
+    width: 450px;
+}
+
+main div {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.600);
+    transition: 1s;
+}
+
+main div:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transform: translateY(-5px);
+
+}
+
+main img {
+    width: 150px;
+    display: inline-block;
+}
+
+.gens .type-grass-div {
+    margin: 10px 20px 10px 30px;
+}
+
+.gens .type-fire-div {
+    margin: 10px 20px 10px 60px;
+}
+
+.gens .type-water-div {
+    margin: 0px 155px 10px 154px;
+}
+
+main div > p {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gens > p{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+}
+/*Center*/
