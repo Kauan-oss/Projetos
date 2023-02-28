@@ -81,10 +81,16 @@ main {
     border-radius: 10px;
 }
 
+main h2{
+    text-align: center;
+    font-size: 1.8em;
+    margin: 10px 0px 0px;
+}
+
 main  h3{
     text-align: center;
     font-size: 1.5em;
-    margin: 15px 0px;
+    margin: 5px 0px 15px;
 }
 
 main > .gens {
@@ -114,15 +120,39 @@ main img {
 
 .gens .type-grass-div {
     margin: 10px 20px 10px 30px;
+    border-color: green;
+}
+
+.strong-grass{
+    color: green;
+    font-weight: bolder;
 }
 
 .gens .type-fire-div {
     margin: 10px 20px 10px 60px;
+    border-color: rgb(253, 167, 47);
+}
+
+.strong-fire{
+    color: rgb(253, 167, 47);
+    font-weight: bolder;
 }
 
 .gens .type-water-div {
     margin: 0px 155px 10px 154px;
+    border-color: rgb(75, 249, 191);
 }
+
+.strong-water{
+    color: rgb(75, 249, 191);
+    font-weight: bolder;
+}
+
+.strong-grass:hover, .strong-fire:hover, .strong-water:hover{
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
 
 main div > p {
     display: block;
