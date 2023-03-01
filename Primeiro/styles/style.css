@@ -5,10 +5,12 @@
     src: url('../font/Pokemon\ Solid.ttf') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontpadrao);
     box-sizing: border-box;
 }
 
@@ -30,6 +32,7 @@ body {
     --water: rgb(53, 210, 158);
 
     --fontpokemon: 'Pokéfont', Arial, Helvetica, sans-serif;
+    --fontpadrao: 'Tilt Neon', cursive, Arial, Helvetica, sans-serif;
 }
 
 /*Top*/
@@ -159,9 +162,13 @@ main img {
 
 
 main div > p {
-    display: block;
+    display: none;
     text-align: center;
     font-weight: bold;
+}
+
+main div:hover > p{
+    display: block;
 }
 
 .gens > p{
@@ -171,6 +178,6 @@ main div > p {
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
-    width: 400px;
+    width: 440px;
 }
 /*Center*/
