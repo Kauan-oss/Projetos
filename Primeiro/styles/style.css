@@ -168,7 +168,7 @@ main div > p {
 .gens > p{
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin: 10px;
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
