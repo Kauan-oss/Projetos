@@ -23,7 +23,12 @@ body {
 
 :root {
     --cor01: black;
-    --cor02: white;
+    --cor02: rgb(224, 223, 223);
+
+    --grass: rgb(0, 128, 0);
+    --fire: rgb(253, 167, 47);
+    --water: rgb(53, 210, 158);
+
     --fontpokemon: 'Pokéfont', Arial, Helvetica, sans-serif;
 }
 
@@ -39,6 +44,7 @@ header > h1 {
     font-family: var(--fontpokemon);
     text-align: center;
     font-weight: 500;
+    font-size: 2.5em;
     color: var(--cor01);
 }
 
@@ -56,7 +62,7 @@ header menu > a, header menu > p {
     font-size: 1.2em;
     font-weight: 600;
     margin: 0px 15px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor02);
     padding: 4px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.485);
@@ -86,7 +92,6 @@ main h2{
     font-size: 1.8em;
     margin: 10px 0px 0px;
 }
-
 main  h3{
     text-align: center;
     font-size: 1.5em;
@@ -120,32 +125,32 @@ main img {
 
 .gens .type-grass-div {
     margin: 10px 20px 10px 30px;
-    border-color: green;
+    border-color: var(--grass);
 }
 
 .strong-grass{
-    color: green;
-    font-weight: bolder;
+    color: var(--grass);
+    font-weight: 700;
 }
 
 .gens .type-fire-div {
     margin: 10px 20px 10px 60px;
-    border-color: rgb(253, 167, 47);
+    border-color: var(--fire);
 }
 
 .strong-fire{
-    color: rgb(253, 167, 47);
-    font-weight: bolder;
+    color: var(--fire);
+    font-weight: 700;
 }
 
 .gens .type-water-div {
     margin: 0px 155px 10px 154px;
-    border-color: rgb(75, 249, 191);
+    border-color: var(--water);
 }
 
 .strong-water{
-    color: rgb(75, 249, 191);
-    font-weight: bolder;
+    color: var(--water);
+    font-weight: 700;
 }
 
 .strong-grass:hover, .strong-fire:hover, .strong-water:hover{
