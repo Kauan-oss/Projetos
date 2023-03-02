@@ -29,7 +29,7 @@ body {
 
     --grass: rgb(0, 128, 0);
     --fire: rgb(253, 167, 47);
-    --water: rgb(53, 210, 158);
+    --water: rgb(53, 173, 210);
 
     --fontpokemon: 'Pokéfont', Arial, Helvetica, sans-serif;
     --fontpadrao: 'Tilt Neon', cursive, Arial, Helvetica, sans-serif;
@@ -102,8 +102,9 @@ main  h3{
 }
 
 main > .gens {
-    display: inline-block;
+    display: block;
     width: 450px;
+    margin: auto;
 }
 
 main div {

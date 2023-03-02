@@ -1,1 +1,114 @@
 @charset "UTF-8";
+
+@media screen and (min-width:768px) {
+/*Top*/
+
+header > menu {
+    width: 363px;
+}
+
+header menu > a, header menu > p {
+    margin: 0px 30px;
+}
+/*Top*/
+
+/*Center*/
+main{
+    padding-bottom: 10px;
+}
+
+main h2{
+    font-size: 2.2em;
+}
+main  h3{
+    font-size: 1.8em;
+}
+
+main > .gens {
+    width: 750px;
+}
+
+main img {
+    width: 200px;
+}
+
+.gens > div > p {
+    font-size: 1.5em;
+}
+
+.gens .type-grass-div {
+    margin: 10px 10px;
+}
+
+.gens .type-fire-div {
+    margin: 10px 44px;
+}
+
+.gens .type-water-div {
+    margin: 10px 10px;
+}
+
+.gens > p{
+    font-size: 1.3em;
+    width: 740px;
+}
+/*Center*/
+}
+
+@media screen and (min-width:992px) {
+    /*Top*/
+    header > h1 {
+        font-size: 3em
+    }
+
+    header > menu {
+        width: 423px;
+    }
+    
+    header menu > a, header menu > p {
+        margin: 0px 40px;
+    }
+    /*Top*/
+    
+    /*Center*/
+    main{
+        padding-bottom: 10px;
+    }
+    
+    main h2{
+        font-size: 2.4em;
+    }
+    main  h3{
+        font-size: 2em;
+    }
+    
+    main > .gens {
+        width: 1000px;
+    }
+    
+    main img {
+        width: 220px;
+    }
+    
+    .gens > div > p {
+        font-size: 1.5em;
+    }
+    
+    .gens .type-grass-div {
+        margin: 30px 50px;
+    }
+    
+    .gens .type-fire-div {
+        margin: 30px 52px;
+    }
+    
+    .gens .type-water-div {
+        margin: 30px 50px;
+    }
+    
+    .gens > p{
+        font-size: 1.3em;
+        width: 968px;
+    }
+    /*Center*/
+    }
