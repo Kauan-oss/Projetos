@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px) {
+
+body {
+    background: url(../imagens/wallpapers/wallpaper-home.jpg) no-repeat  center center fixed;
+    background-size: cover; 
+    padding: 10px;
+}
+
+
 /*Top*/
 
 header > menu {
@@ -56,6 +64,13 @@ main img {
 }
 
 @media screen and (min-width:992px) {
+    body {
+        background: url(../imagens/wallpapers/wallpaper-home.jpg) no-repeat ;
+        background-size: cover; 
+        background-attachment: fixed;
+        padding: 10px;
+    }
+
     /*Top*/
     header > h1 {
         font-size: 3em
