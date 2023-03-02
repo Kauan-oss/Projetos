@@ -16,10 +16,10 @@
         </h1>
         <menu>
             <a href="#">Menu</a>
-            <p>Gens</p>
+            <p onclick="clickGens ()">Gens</p>
             <a href="#">Megas</a>
         </menu>
-        <section id="generation" onclick="click">
+        <section id="generation">
             <p>01</p>
             <p>02</p>
             <p>03</p>
@@ -203,7 +203,16 @@
                 <strong class="strong-grass">Sprigatito</strong> é o inicial do tipo Planta, <strong class="strong-fire">Fuecoco</strong> o do tipo Fogo e <strong class="strong-water">Quaxly</strong> o Pokémon do tipo Água.
             </p>
         </section>
-    </main>    
+    </main>  
+    <script>
+        function clickGens (){
+            if (generation.style.display == 'block') {
+                generation.style.display = 'none'
+            } else {
+                generation.style. display = 'block'
+            }
+        }
+    </script>  
 </body>
 </html>
 

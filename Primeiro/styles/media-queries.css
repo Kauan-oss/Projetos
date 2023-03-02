@@ -1,5 +1,60 @@
 @charset "UTF-8";
 
+@media print {
+    /*Top*/
+
+header > menu {
+    display: none;
+}
+
+/*Top*/
+
+/*Center*/
+main{
+    padding-bottom: 10px;
+}
+
+main h2{
+    display: none;
+}
+main  h3{
+    font-size: 1.8em;
+}
+
+main > .gens {
+    width: 750px;
+}
+
+main img {
+    width: 200px;
+}
+
+.gens > div > p {
+    display: block;
+}
+
+.gens .type-grass-div {
+    margin: 10px 10px;
+}
+
+.gens .type-fire-div {
+    margin: 10px 44px;
+}
+
+.gens .type-water-div {
+    margin: 10px 10px;
+}
+
+.gens > p{
+    font-size: 1.3em;
+    width: 740px;
+    font-family: monospace;
+}
+/*Center*/
+
+}
+
+
 @media screen and (min-width:768px) {
 
 body {
@@ -17,6 +72,15 @@ header > menu {
 
 header menu > a, header menu > p {
     margin: 0px 30px;
+}
+
+header > #generation{
+    width: 465px; ;
+}
+
+header > #generation > p{
+    font-size: 1.2em; 
+   
 }
 /*Top*/
 
@@ -83,6 +147,16 @@ main img {
     header menu > a, header menu > p {
         margin: 0px 40px;
     }
+
+    header > #generation{
+        width: 482px; ;
+    }
+    
+    header > #generation > p{
+        font-size: 1.3em; 
+       
+    }
+
     /*Top*/
     
     /*Center*/
