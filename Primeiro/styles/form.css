@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    color: #37aee3;
+}
+
+form{
+    background-color: rgb(224, 223, 223);
+    margin: auto;
+    display: block;
+    width: 350px;
+    padding: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.444);
+}
+
+#img-fundo{
+    background: url(../imagens/wallpapers/cadt.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    margin: -5px -5px 0px -5px;
+}
+
+.campo > label{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.campo{
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #46d119;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.444);
+    transition: margin 1.5s, box-shadow 1.5s;
+}
+
+.campo:hover{
+    margin: 20px auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.641);
+}
+
+.campo > input{
+    position: relative;
+    left: 6px;
+    height: 40px;
+    width: 260px;
+    border: none;
+    padding: 0px 3px;
+    border-radius: 10px;
+}
+
+.campo > input:hover{
+    border: none;
+}
+
+.campo > ::placeholder{
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.campo > label > span{
+    position: relative;
+    font-size: 1.5em;
+    top: 9px;
+    left: 3px;
+    color: white;
+}
+
+.marcar{
+    text-align: center;
+}
+
+.marcar  #cormasc{
+    color: #01adef;
+}
+
+.marcar #corfem{
+    color: #ee029a;
+}

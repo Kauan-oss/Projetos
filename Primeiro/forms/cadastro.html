@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Cadastro Poké Info</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="post">
+        <section id="area-a">
+            <div id="img-fundo">
+                <!--Imagem vai no css-->
+            </div>
+        </section>
+        <section id="area-b">
+            <div class="campo">
+                <label for="Iduser"><span class="material-symbols-outlined">person</span></label>
+                <input type="text" name="User" id="Iduser" placeholder="Nome de Usuário" required autocomplete="off">
+            </div>
+            <div class="marcar">
+                <label for="masc"><span class="material-symbols-outlined" id="cormasc">male</span></label>
+                <input type="radio" name="sexo" id="masc" value="M" checked>
+                <label for="fem"><span class="material-symbols-outlined" id="corfem">female</span></label>
+                <input type="radio" name="sexo" id="fem" value="F">
+            </div>
+            <div class="campo">
+                <label for="idemail"><span class="material-symbols-outlined">mail</span></label>
+                <input type="email" name="email" id="idemail" placeholder="E-mail" required autocomplete="email">
+            </div>
+            <div class="campo">
+                <label for="idpassword"><span class="material-symbols-outlined">lock</span></label>
+                <input type="password" name="password" id="idpassword" placeholder="Senha" required autocomplete="off">
+            </div>
+            <div class="campo">
+                <label for="idpassword-confirm"><span class="material-symbols-outlined">lock</span></label>
+                <input type="password" name="password-confirm" id="idpassword-confirm" placeholder="Confirmar senha" required autocomplete="off">
+            </div>
+            <div class="button-register">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </section>
+    </form>
+</body>
+</html>

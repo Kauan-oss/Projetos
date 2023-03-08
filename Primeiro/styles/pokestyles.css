@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Top*/
+header {
+    background-color: chocolate;
+    width: 100vw;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+/*Top*/
