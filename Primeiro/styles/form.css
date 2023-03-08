@@ -6,6 +6,11 @@
     padding: 0px;
 }
 
+body{
+    background-image: linear-gradient(to bottom, #37aee3, #46d119);
+    height: 100vh;
+}
+
 h1{
     text-align: center;
     color: #37aee3;
@@ -87,4 +92,24 @@ form{
 
 .marcar #corfem{
     color: #ee029a;
+}
+
+input[type=submit]{
+    padding: 10px 10px;
+    display: block;
+    margin: 15px auto 0px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    color: white;
+    background-color: #46d119;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.500);
+    transition: transform 1s, box-shadow 1s;
+}
+
+input[type=submit]:hover{
+    transform: translate(-5px, -5px);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.500);
 }
