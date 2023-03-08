@@ -1,1 +1,115 @@
 @charset "UTF-8";
+
+@media screen and (min-width:768px) {
+
+    h1{
+        color: #893f98;
+    }
+
+    body{
+        background-image: linear-gradient(to top, #351642, #893f98);
+    }
+
+    form{
+        width: 700px;
+        height: 500px;
+    }
+
+    #area-a{
+        float: left;
+        width: 40%;
+    }
+
+    #img-fundo{
+        background: url(../imagens/wallpapers/cadt2.jpg) no-repeat center right;
+        background-size: cover;
+        height: 550px;
+    }
+
+    #arrow{
+        color: #893f98;
+        font-size: 2.5em;
+    }
+
+    #arrow:hover{
+        font-size: 2.7em;
+    }
+
+    #area-b{
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+
+    .campo{
+        background-color: #803a8d;
+        margin-bottom: 30px;
+    }
+
+    .campo:hover{
+        margin: 35px auto;
+    }
+
+    input[type=submit]{
+        background-color: #803a8d;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    h1{
+        color: #55b6e0;
+    }
+
+    body{
+        background-image: linear-gradient(to top, #246285, #55b6e0);
+    }
+
+    form{
+        width: 950px;
+        height: 500px;
+    }
+
+    #area-a{
+        float: left;
+        width: 40%;
+    }
+
+    #img-fundo{
+        background: url(../imagens/wallpapers/cadt3.jpg) no-repeat center right;
+        background-size: cover;
+        height: 550px;
+    }
+
+    #arrow{
+        color: #55b6e0;
+        font-size: 3em;
+    }
+
+    #arrow:hover{
+        font-size: 3.2em;
+    }
+
+    #area-b{
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+    
+    .marcar{
+        margin: 30px auto 10px;
+    }
+
+    .campo{
+        background-color: #246285;
+        margin: 10px auto 30px;
+    }
+
+    .campo:hover{
+        margin: 35px auto;
+    }
+
+    input[type=submit]{
+        background-color: #246285;
+    }
+}
